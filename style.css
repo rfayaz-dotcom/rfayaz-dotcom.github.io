@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #edf2f7;
+    color: #263445;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+#wrapper {
+    max-width: 1150px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 18px #ccd5df;
+}
+
+header {
+    padding: 32px 24px;
+    background-color: #16324f;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 8px 0 0;
+    color: #dcebf7;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #244b70;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 14px 22px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a[aria-current="page"] {
+    background-color: #dcebf7;
+    color: #16324f;
+}
+
+main {
+    padding: 32px 40px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #16324f;
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #185d65;
+    font-size: 21px;
+}
+
+.welcome {
+    margin-bottom: 36px;
+    padding: 32px;
+    background-color: #eaf4f5;
+    border-left: 5px solid #247780;
+}
+
+.welcome p {
+    max-width: 750px;
+}
+
+a {
+    color: #175a91;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 11px 20px;
+    background-color: #185d65;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #123f45;
+}
+
+.topics {
+    display: flex;
+    gap: 22px;
+    margin-top: 24px;
+}
+
+.card {
+    flex: 1;
+    min-width: 0;
+    padding: 24px;
+    background-color: #f7f9fc;
+    border: 1px solid #d5dfe9;
+    border-top: 4px solid #247780;
+    border-radius: 6px;
+}
+
+.tips {
+    margin-top: 36px;
+    padding: 28px;
+    background-color: #fff7e6;
+    border-left: 5px solid #b67b16;
+}
+
+.tips ul {
+    margin-bottom: 0;
+    padding-left: 24px;
+}
+
+.resources {
+    margin-top: 36px;
+}
+
+footer {
+    padding: 22px;
+    background-color: #16324f;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+@media (max-width: 700px) {
+    #wrapper {
+        margin: 0;
+    }
+
+    main {
+        padding: 24px 18px;
+    }
+
+    .topics {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        padding: 10px 14px;
+    }
+}
