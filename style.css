@@ -184,3 +184,14 @@ footer a {
         padding: 10px 14px;
     }
 }
+/* Shared styles for the additional content pages. */
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+caption { text-align: left; font-weight: bold; margin-bottom: 12px; }
+th, td { border: 1px solid #a7bdce; padding: 14px; text-align: left; vertical-align: top; }
+thead { background-color: #eaf4f5; }
+form { max-width: 650px; }
+label { display: block; margin-top: 18px; font-weight: bold; }
+input, select, textarea { width: 100%; padding: 12px; border: 1px solid #60768b; border-radius: 4px; font: inherit; }
+button { border: 0; cursor: pointer; font: inherit; }
+:focus-visible { outline: 3px solid #b67b16; outline-offset: 3px; }
